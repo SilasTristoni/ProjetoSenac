@@ -1,0 +1,12 @@
+.h1 {
+    color: purple;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 1.5em; /* unidade de medida baseada no tamanho atual */
+    margin-bottom: 10px;
+    color: $cor-primaria;
+  }
+  h1:hover{
+    color: black;
+  }

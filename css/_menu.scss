@@ -1,0 +1,23 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 1px;
+    border-radius:$borda-arredondada;
+    padding: 10px;
+    margin-bottom: 20px;
+    li {
+      font-weight: bold;
+      a:hover{
+          color: rgb(62, 216, 88);
+      }
+    }
+  }
+  .logo {
+    max-width: 100px;
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+  }
+  
