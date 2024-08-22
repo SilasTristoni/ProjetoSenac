@@ -1,0 +1,20 @@
+{
+  "name": "aula_inicial_fausto",
+  "version": "1.0.0",
+  "description": "Projeto de web da aula do Fausto",
+  "main": "index.js",
+  "scripts": {
+    "compiler": "sass <-"
+  },
+  "keywords": [
+    "Projeto",
+    "jy",
+    "Html",
+    "Css"
+  ],
+  "author": "Silas Cassiano Tristoni",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.77.8"
+  }
+}
