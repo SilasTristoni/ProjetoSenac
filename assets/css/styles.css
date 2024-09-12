@@ -240,6 +240,19 @@ body {
   margin-left: 20px;
 }
 
+.telainicial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.telainicial img {
+  margin: 10px;
+  justify-content: center;
+  max-width: 500px;
+}
+
 .text-center {
   text-align: center; /* Alinha o texto dos filhos do elemento*/
   color: black; /* Define a cor dos filhos do elemento*/

@@ -93,3 +93,14 @@ margin: 10px; /* Espaçamento ao redor das imagens */
 .torcida p{
   margin-left: 20px;
 }
+.telainicial{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.telainicial img{
+  margin: 10px;
+  justify-content: center;
+  max-width: 500px;
+}
