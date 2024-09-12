@@ -137,20 +137,107 @@ table {
 body {
   font-family: sans-serif; /* fonte sem serifa */
   font-size: 16px; /* tamanho da fonte, o tamnho padrão já é 16px */
-  background-color: rgb(11, 95, 192);
+  background-color: rgb(39, 117, 220);
 }
 
 .container {
   max-width: 600px; /* Largura máxima do container */
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   /* border-width: 1px;
     border-style: solid;
     border-color: red; */
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
-  border-radius: 50px;
+  border-radius: 40px;
   border-radius: 25px;
+}
+
+.grid {
+  display: grid;
+}
+
+.goleiro {
+  display: flex;
+  flex-direction: column; /* Coloca o h1 e a imagem um embaixo do outro */
+  justify-content: center; /* Centraliza os itens verticalmente */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  padding: 10px;
+  text-align: center; /* Garante que o texto fique centralizado */
+}
+
+.goleiro img {
+  margin: 50px;
+}
+
+.Defensores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Espaço entre as imagens */
+  padding: 10px;
+  text-align: center;
+  flex-wrap: wrap; /* Permite que as imagens quebrem de linha se ultrapassarem a largura do container */
+}
+
+.Defensores h1 {
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+  width: 100%; /* Garante que o h1 ocupe toda a largura do container */
+  text-align: center; /* Centraliza o texto dentro do h1 */
+}
+
+.Defensores img {
+  width: 180px; /* Ajuste a largura das imagens para caber no container */
+  height: auto; /* Mantém a proporção da altura */
+  margin: 10px; /* Espaçamento ao redor das imagens */
+}
+
+.Meio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Espaço entre as imagens */
+  padding: 10px;
+  text-align: center;
+  flex-wrap: wrap; /* Permite que as imagens quebrem de linha se ultrapassarem a largura do container */
+}
+
+.Meio h1 {
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+  width: 100%; /* Garante que o h1 ocupe toda a largura do container */
+  text-align: center; /* Centraliza o texto dentro do h1 */
+}
+
+.Meio img {
+  width: 180px; /* Ajuste a largura das imagens para caber no container */
+  height: auto; /* Mantém a proporção da altura */
+  margin: 10px; /* Espaçamento ao redor das imagens */
+}
+
+.Ataque {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Espaço entre as imagens */
+  padding: 10px;
+  text-align: center;
+  flex-wrap: wrap; /* Permite que as imagens quebrem de linha se ultrapassarem a largura do container */
+}
+
+.Ataque h1 {
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+  width: 100%; /* Garante que o h1 ocupe toda a largura do container */
+  text-align: center; /* Centraliza o texto dentro do h1 */
+}
+
+.Ataque img {
+  width: 180px; /* Ajuste a largura das imagens para caber no container */
+  height: auto; /* Mantém a proporção da altura */
+  margin: 10px; /* Espaçamento ao redor das imagens */
+}
+
+.torcida p {
+  margin-left: 20px;
 }
 
 .text-center {
@@ -194,11 +281,15 @@ h1 {
   font-weight: bold;
   font-size: 1.5em; /* unidade de medida baseada no tamanho atual */
   margin-bottom: 10px;
-  color: rgb(11, 95, 192);
+  color: rgb(39, 117, 220);
 }
 
 h1:hover {
   color: rgb(0, 0, 0);
+}
+
+#torcida {
+  margin: 0 auto;
 }
 
 .menu {
